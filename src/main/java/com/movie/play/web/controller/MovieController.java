@@ -21,6 +21,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/movies")
+@CrossOrigin(origins = "*")
 @Tag(name="Movies", description= "Operations about movies of PlatziPlay")
 public class MovieController {
     private final MovieService movieService;
