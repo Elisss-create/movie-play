@@ -22,7 +22,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/movies")
 @CrossOrigin(origins = "*")
-@Tag(name="Movies", description= "Operations about movies of PlatziPlay")
+@Tag(name="Movies", description= "Operations about movies of MoviePlay")
 public class MovieController {
     private final MovieService movieService;
     private final MoviePlayAiService aiService;
